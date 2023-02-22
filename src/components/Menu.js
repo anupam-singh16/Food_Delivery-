@@ -40,7 +40,7 @@ function Menu() {
         <div>
             <CategoryBar/>
             <RestaurantMenu/>
-            {list && (list.length>0 ? <Cart/> : <></>)}
+            {/* {list && (list.length>0 ? <Cart/> : <></>)} */}
         </div>
     )
 }

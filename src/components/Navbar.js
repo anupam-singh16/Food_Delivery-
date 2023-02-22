@@ -12,7 +12,7 @@ function Navbar() {
 
     <Link to="/" className="navbar-brand">
       <img id="nav-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlq5HBm3PMYychM_62YJmJJWksFJgcvrTaoA&usqp=CAU" alt="nav-logo" className="img-fluid d-inline-block align-baseline me-2" />
-      <span className="nav-title">Yumi</span><span className="nav-title-to">to</span>
+      <span className="nav-title">4Mitra</span><span className="nav-title-to"></span>
     </Link>
     
     </nav>
@@ -34,10 +34,7 @@ function Navbar() {
         <div className="offcanvas-body px-3">
           <hr/>
           <div>
-          Our technology platform connects customers, restaurant partners and 
-          delivery partners, serving their multiple needs. Customers use our platform to search and 
-          discover their favourite food items, read and write customer generated reviews, offer various deals on food items,
-          order food delivery and make payments while dining-out at restaurants. We provide high quality food items delivered within short time. 
+          Hi everyone we are start up company to your favourite food in your home , office and all. 
           </div>
          <hr/>
          <div className="d-flex flex-wrap">
@@ -45,7 +42,7 @@ function Navbar() {
          <Link to="/"><button type="button" className="btn btn-outline-warning rounded-pill btn-sm m-2 mx-1">Hours & Location</button></Link>
          <Link to="/login"><button type="button" className="btn btn-outline-danger rounded-pill btn-sm m-2 mx-1">Login</button></Link>
          <Link to="/register"><button type="button" className="btn btn-outline-dark rounded-pill btn-sm m-2 mx-1">Signup</button></Link>
-         <Link to="#"><button type="button" className="btn btn-outline-dark btn-sm rounded-pill disabled m-2 mx-1">Admin</button></Link>
+         <Link to="#"><button type="button" className="btn btn-outline-dark btn-sm rounded-pill disabled m-2 mx-1">Admin coming soon</button></Link>
          <Link to="#"><button type="button" className="btn btn-outline-primary btn-sm rounded-pill m-2 mx-1" data-bs-toggle="offcanvas" data-bs-keyboard="true" data-bs-target="#offerModal">Offers</button></Link>
          </div>
         </div>
