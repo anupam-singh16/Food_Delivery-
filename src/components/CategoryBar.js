@@ -12,13 +12,13 @@ function CategoryBar() {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link" href="#Break Your Fast">Break Your Fast</a>
+          <a className="nav-link" href="#Break Your Fast">Indian</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#Time for Lunch">Time for Lunch</a>
+          <a className="nav-link" href="#Time for Lunch">South indian </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#Can I Have Snacks">Can I Have Snacks</a>
+          <a className="nav-link" href="#Can I Have Snacks">North indian</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#Dinner">Dinner</a>
@@ -28,7 +28,7 @@ function CategoryBar() {
         </li>
         <li className="nav-item dropdown">
           <div className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" role="button">
-            More..
+            More....
           </div>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="#Pizzanians">Pizzanians</a></li>

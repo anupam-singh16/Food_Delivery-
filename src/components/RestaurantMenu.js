@@ -12,7 +12,7 @@ function RestaurantMenu() {
   useEffect(()=>{
     //console.log("Restaurant menu rendered");
     if(items.length ===0){
-    axios.get('https://my-json-yumito-server.herokuapp.com/menu')
+    axios.get('https://m  y-json-yumito-server.herokuapp.com/menu')
     .then(response =>{
       store.set('error', '');
       store.set('loading', false);

@@ -14,6 +14,7 @@ function Register() {
          }
 },[msg,history])
     
+
     const changeMe=(e)=>{
         const {name , value} = e.target ;
          setUser({
@@ -29,6 +30,7 @@ function Register() {
         axios.post('https://my-json-yumito-server.herokuapp.com/users',user)
         .then(res =>{
             setMsg("Registered Successfully");
+            console.log("Registered Successfully");
            //redirect to login page
         })
         .catch((e)=>{
