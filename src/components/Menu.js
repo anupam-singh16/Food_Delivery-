@@ -39,7 +39,7 @@ function Menu() {
     return (
         <div>
             <CategoryBar/>
-            {/* <RestaurantMenu/> */}
+            <RestaurantMenu/>
             {list && (list.length>0 ? <Cart/> : <></>)}
         </div>
     )
