@@ -10,6 +10,13 @@ function RestaurantMenu() {
   const [error, setError]=useState(store.get('error') ?? '');
 
   useEffect(()=>{
+    fetch('https://m  y-json-yumito-server.herokuapp.com/menu').then((res)=>{
+   return res.json;
+    }).then((finalData)=>{
+    console.log(finalData);
+    }).catch((err)=>{
+      console.log(err);
+    })
     //console.log("Restaurant menu rendered");
     if(items.length ===0){
     axios.get('https://m  y-json-yumito-server.herokuapp.com/menu')

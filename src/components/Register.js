@@ -6,6 +6,7 @@ import {useHistory} from 'react-router-dom'
 function Register() {
     const [user, setUser]=useState({mail:"", psd:"",addr:""})
     const [msg,setMsg] = useState('');
+    console.log(`check set msg anupam${msg}`);
     const history =useHistory();
     useEffect(()=>{
         //console.log("register rendered");
