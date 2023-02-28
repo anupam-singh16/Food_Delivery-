@@ -15,7 +15,7 @@ function Footer() {
     <Link to="#" className="nav-link px-2 text-light" data-bs-toggle="offcanvas" data-bs-target="#about-hotel" data-bs-keyboard="true">About</Link>
     <div className="nav-link px-2 text-light" data-bs-toggle="tooltip" data-bs-placement="top" role="button"
     title="Call us: 080 4123 7514">Contact Us</div>
-    <Link to="/menu" className="nav-link px-2 text-light">Menu</Link>
+    <Link to="/menu" className="nav-link px-2 text-light">MENU</Link>
     <Link to="/" className="nav-link px-2 text-light">Home</Link>
     <Link to="#" className="nav-link px-2 text-light" data-bs-toggle="offcanvas" data-bs-keyboard="true" data-bs-target="#offerModal">Offers</Link>
     {/* <Link to="#" className="nav-link px-2 text-light">Admin</Link> */}
